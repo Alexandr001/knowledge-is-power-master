@@ -1,0 +1,34 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+src/KnowledgeIsPower/.vs
+
+src/KnowledgeIsPower/Temp
+
+src/KnowledgeIsPower/Library
+src/KnowledgeIsPower/.idea
+src/KnowledgeIsPower/Assembly-CSharp.csproj
+src/KnowledgeIsPower/Assembly-CSharp-Editor.csproj
+src/KnowledgeIsPower/KnowledgeIsPower.sln
+src/KnowledgeIsPower/KnowledgeIsPower.csproj
+src/KnowledgeIsPower/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+
+src/KnowledgeIsPower/obj
+
+.vs
+/builds
+src/KnowledgeIsPower/Assets/Plugins/Editor/JetBrains
+
+src/KnowledgeIsPower/ProjectSettings/ProjectVersion.txt
+src/KnowledgeIsPower/Packages/manifest.json
+src/KnowledgeIsPower/Packages/packages-lock.json
+src/KnowledgeIsPower/ProjectSettings/PackageManagerSettings.asset
+src/KnowledgeIsPower/KnowledgeIsPower.sln.DotSettings.user
+
+*.csproj
+
+# Build related
+Cake/tools/**
+Cake/!tools/packages.config
+
+# Ignore media & other temp files
+*.log
+*.log.meta
